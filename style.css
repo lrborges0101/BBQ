@@ -1,0 +1,135 @@
+body{
+   font-family: Helvetica, sans-serif;
+   
+    background-color: #f6f5c3;
+    position: relative;
+    margin: 0;
+    background-image: url(./Imagens/6067-removebg-preview.png);
+
+   
+}
+
+.container{
+  width: 400px;
+  height: 688px;
+   background-color: #E1EDFD;
+   border-radius: 20px 0px 0px 20px;
+ padding-left: 10px;
+ padding-top: 10px;
+ text-align: center;
+ position: absolute;
+ right: 0px;
+ 
+ 
+
+
+}
+
+input{
+
+    display: block;
+    
+    margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+   left: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  border: 0px;
+
+}
+    
+
+button{
+
+  background-color: #818fa1;
+  padding: 10px;
+  border-radius: 10px ;
+  border: 1px solid #818fa1;
+  position: relative; 
+  text-align: center;
+
+}
+
+button:hover{ background-color: #424c58;}
+
+p{
+
+    font-size: 32px;
+    text-align: center;
+}
+
+.greyBox{
+
+
+    width: 690px;
+    height: 300px;
+background-color: #F47457;
+  position:absolute;
+  right: 410px;
+  top: 150px;
+  border-radius: 20px 0px 0px 20px;
+ 
+}
+
+.img{
+ position: absolute;
+ left: -50px;
+ top: -120px;
+ 
+}
+#H1{
+margin-left: 15px;
+/* position: absolute; */
+position: fixed;
+
+
+}
+
+label{
+
+    font-size: 1.4rem;
+}
+ 
+.meat::before{
+  content: "";
+width: 50px;
+height: 50px;
+background-image: url(./Imagens/meat.png) ;
+background-repeat: no-repeat;
+background-size: cover;
+display: inline-block;
+}
+
+.beer::before{
+  content: "";
+width: 50px;
+height: 50px;
+background-image: url(./Imagens/beer.png) ;
+background-repeat: no-repeat;
+background-size: cover;
+display: inline-block;
+}
+
+.soda::before{
+  content: "";
+width: 50px;
+height: 50px;
+background-image: url(./Imagens/soft-drink.png) ;
+background-repeat: no-repeat;
+background-size: cover;
+display: inline-block;
+}
+
+@media screen and (max-width: 500px){
+
+.container{ width: calc(100%);
+text-align: left;}
+.img{ visibility: hidden;}
+.greyBox{ visibility: hidden;}
+label{
+text-align: left;
+}
+button{text-align: center;}
+
+}
